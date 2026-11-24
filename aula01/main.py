@@ -1,11 +1,12 @@
-# Projeto python - Aula 01
-Meu primeiro programa em Python
-## Conteúdo
+# Pergunta o nome do usurio
+nome = input("Digite seu nome:")
 
-- Introdução ao Python
-- Variáveis e Tipos de Dados
-- Operadores
-- Estruturas de Controle de Fluxo
-- funções
+#pergunte a idade
+idade =  int(input("Digite sua idade:"))
 
-Autor: Rodolfo Wanderley S S
+#calcula a idade daqui a 10 anos
+
+idade_futura = idade + 10
+
+#mostra os resultado
+print("Ola, meu nome é", nome, "e minha idade daqui a 10 anos sera", idade_futura)
